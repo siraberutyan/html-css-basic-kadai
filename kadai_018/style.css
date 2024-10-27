@@ -63,17 +63,6 @@
     background-color: #e5dcf0;
     
 }
-/* 一番下の図形に対して以下のスタイルを適用し、デザインを調整してください。
-
-div要素（id名「bottom」）に対する装飾
-横幅を800pxにします。
-高さを300pxにします。
-画面の中央に配置します。
-背景色を「#87ceeb」にします。
-div要素（id名「bottom-child01」「bottom-child02」「bottom-child03」）に対する共通の装飾
-横幅を400pxにします。
-高さを100pxにします。
-背景色を「#e5dcf0」にします。 */
 
 #bottom-child01 {
     position: absolute;
@@ -92,13 +81,3 @@ div要素（id名「bottom-child01」「bottom-child02」「bottom-child03」）
     top: 200px;
     left: 400px;
 }
-
-
-/* style.cssファイルにてpositionプロパティを利用し、
-以下画像のような配置になるよう
-div要素（id名「bottom-child02」「bottom-child03」）のCSSコードを記入してください。
-
-div要素（id名「bottom-child02」）は、
-本来の表示場所の左から200pxずらして配置してください。
-div要素（id名「bottom-child03」）は、
-本来の表示場所の左から400pxずらして配置してください。 */
