@@ -1,0 +1,104 @@
+#top {
+    width: 800px;
+    background-color: #dcc9f4;
+    margin: 20px 0px 20px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.top-child {
+    text-align: center;
+    width: 20%;
+    background-color: #ffd9df;
+    display: inline-block;
+}
+
+#middle {
+    width: 800px;
+    height: 800px;
+    margin: 20px 0px 20px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffd9df;
+    position: relative;
+}
+
+#middle div {
+    width: 200px;
+    height: 200px;
+    background-color: #87ceeb;
+}
+
+#middle-child01 {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+#middle-child02 {
+    position: absolute;
+    top: 300px;
+    right: 300px;
+}
+
+#middle-child03 {
+    position: absolute;
+    top: 500px;
+    right: 500px;
+}
+
+#bottom {
+    width: 800px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #87ceeb;
+    position: relative;
+}
+
+#bottom div {
+    width: 400px;
+    height: 100px;
+    background-color: #e5dcf0;
+    
+}
+/* 一番下の図形に対して以下のスタイルを適用し、デザインを調整してください。
+
+div要素（id名「bottom」）に対する装飾
+横幅を800pxにします。
+高さを300pxにします。
+画面の中央に配置します。
+背景色を「#87ceeb」にします。
+div要素（id名「bottom-child01」「bottom-child02」「bottom-child03」）に対する共通の装飾
+横幅を400pxにします。
+高さを100pxにします。
+背景色を「#e5dcf0」にします。 */
+
+#bottom-child01 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#bottom-child02 {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+#bottom-child03 {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+
+
+/* style.cssファイルにてpositionプロパティを利用し、
+以下画像のような配置になるよう
+div要素（id名「bottom-child02」「bottom-child03」）のCSSコードを記入してください。
+
+div要素（id名「bottom-child02」）は、
+本来の表示場所の左から200pxずらして配置してください。
+div要素（id名「bottom-child03」）は、
+本来の表示場所の左から400pxずらして配置してください。 */
